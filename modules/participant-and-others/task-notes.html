@@ -9,7 +9,7 @@
         var fields="Participant_ID,Participant,Task,Short_Title,Contents,Color";
         _fields="_Form,"+fields+",Submit Date|DateTime,Submitted by|Author,_Delete,_Hidden|Participant_uid";
         //-------------------------------------
-        var participant_pid=$vm.module_list[$vm.vm['__ID'].name].participant;
+        var participant_pid=$vm.module_list[$vm.vm['__ID'].name]['participant-data'];
         //-------------------------------------
         $('#D__ID').on('load',function(){ _set_req();_request_data(); });
         //-------------------------------------
