@@ -1,6 +1,8 @@
 {"modules":{
     "main":   {"url":"modules/panels/main.html"},
 	"child":  {"url":"modules/panels/child.html"},
+
+    "randomisation-schedule":   {"table_id":"91000116", "url":"modules/participant-and-others/randomisation-schedule.html"},
     "participant-data":         {"table_id":"91000001", "url":"modules/participant-and-others/participant-data.html","notes":"91000002","login_setup":"91000003","form_module":"participant-form","name_for_search":"Participant data"},
     "participant-form":         {"table_id":"91000001", "url":"modules/participant-and-others/participant-form.html","notes":"91000002","login_setup":"91000003","name_for_search":"Participant form"},
     "task-notes":	            {"table_id":"91000002","url":"modules/participant-and-others/task-notes.html", "participant":"91000001","name_for_search":"EDC notes"},
