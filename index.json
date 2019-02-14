@@ -131,9 +131,6 @@
                 {"table_id":"91000069","task_name":"6Month - Noise Annoyance Scale"},
                 {"table_id":"91000031","task_name":"6Month - Tower of London"},
                 {"table_id":"91000028","task_name":"6Month - N-back"}
-            ],
-            "6 Month":[
-                {"table_id":"91000070","task_name":"Practice - N-back"}
             ]
         }
     }
